@@ -24,3 +24,6 @@ print wordLen
 
 numsDivisible =[num for i in range(2,9) if num%i==0 for num in range(2,1000)]
 print numsDivisible;
+
+highestDivisible = {num: i for num in range(2,1000) for i in range(9,2,-1) if num%i==0}
+print highestDivisible;
