@@ -15,3 +15,6 @@ vowels=['a','e','i','o','u']
 
 withoutvowels = [char for char in text if char not in vowels]
 print "".join(withoutvowels)
+
+lessThan3 = [word for word in text.split() if len(word)<4]
+print lessThan3
