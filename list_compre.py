@@ -18,3 +18,9 @@ print "".join(withoutvowels)
 
 lessThan3 = [word for word in text.split() if len(word)<4]
 print lessThan3
+
+wordLen = {word: len(word) for word in text.split()}
+print wordLen
+
+numsDivisible =[num for i in range(2,9) if num%i==0 for num in range(2,1000)]
+print numsDivisible;
