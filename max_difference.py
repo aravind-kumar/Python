@@ -7,6 +7,5 @@ def maxDifference(arr):
     return maxDif
 
 if __name__ == '__main__':
-#    arr=[int(x) for x in input("Enter the input").split()]
     arr=[2, 3, 10, 6, 4, 8, 1]
     print(maxDifference(arr))
